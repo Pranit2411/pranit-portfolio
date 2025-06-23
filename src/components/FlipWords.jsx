@@ -53,7 +53,7 @@ export const FlipWords = ({
           position: "absolute",
         }}
         className={twMerge(
-          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
+          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 ",
           className
         )}
         key={currentWord}>
