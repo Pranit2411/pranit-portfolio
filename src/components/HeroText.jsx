@@ -44,7 +44,7 @@ const HeroText = () => {
                         initial = "hidden"
                         animate = "visible"
                         transition= {{delay : 1.8} }>
-                            Software Solutions</motion.p>
+                            Software</motion.p>
                 </div>
             </div>
 

@@ -23,7 +23,7 @@ const Navbar = () => {
     const[isOpen, setIsOpen] = useState(false);   
 
     return (
-        <div className="fixed inset-x-0 x-20 w-full backdrop-blur-lg bg-primary/40">
+        <div className="fixed inset-x-0 x-20 w-full backdrop-blur-lg bg-primary/40 z-1">
             <div className="max-auto c-space max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:py-0">
                     <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">Pranit</a>
@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
             {isOpen && (
                 <motion.div 
-                    className='block overflow-hidden text-center sm:hidden' 
+                    className='block overflow-hidden text-center sm:hidden ' 
                     initial = {{opacity :0, x: -10}} 
                     animate = {{ opacity : 1, x: 0}} 
                     style={{ maxHeight : "100vh"}} 
