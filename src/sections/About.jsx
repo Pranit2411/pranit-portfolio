@@ -43,7 +43,16 @@ const About = () => {
                         <EmailButton />
                     </div>
                 </div>
-                <div className="grid-default-color grid-5"></div>
+                <div className="grid-default-color grid-5">
+                    <div className='z-10 w-[50%]'>
+                        <p className='headtext'>Tech Stack</p>
+                        <p className='subText'>I specialize in a variety of languages, frameworks and tools that allow me to build robust and scalable applications</p>
+                        
+                    </div>
+                    <div className='absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125'> 
+                       <img src="assets/TechStack.png" className="absolute h-60 left-[15%]" />
+                    </div>
+                </div>
             </div>
         </section>
     );
