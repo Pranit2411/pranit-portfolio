@@ -2,7 +2,7 @@ import { myProjects } from "../constants";
 import Project from "../components/Project";
 const Projects = () => {
     return (
-        <section className="relative c-space section-spacing">
+        <section className="relative c-space section-spacing" id="project">
             <h2 className="text-heading">
                 My Projects
             </h2>
