@@ -11,8 +11,8 @@ const Footer = () => {
                         key={index}
                         target="_blank"
                     >
-                        <div className="flex flex-col items-center gap-2">
-                            <img src={social.icon} className="w-20 h-20" alt={social.name}/>
+                        <div className="flex flex-col items-center gap-2 hover-animation">
+                            <img src={social.icon} className="w-20 h-20 " alt={social.name}/>
                             <p className="text-neutral-300 text-center text-2xl">{social.username}</p>
                         </div>
                     </a>

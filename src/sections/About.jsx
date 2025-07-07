@@ -10,7 +10,7 @@ const About = () => {
                     <img src="assets/coding-pov.png" className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]" />
                     <div className="z-10">
                         <p className="headtext">Hi, I'm Pranit Menkar</p>
-                        <p className="subtext">Over the years ...</p>
+                        <p className="subtext">Over the years, I’ve built a strong foundation in software engineering and data science through hands-on experience in academic projects, internships, and personal learning.</p>
                     </div>
                     <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"></div>
                 </div>
@@ -26,12 +26,17 @@ const About = () => {
                         <Card image ="assets/logos/git.svg" style={{rotate: "20deg", top: "10%", left: "38%"}}/>
                         <Card image="assets/logos/visualstudiocode.svg" style={{rotate: "30deg", top: "70%", left: "70%"}}/>
                         <Card image="assets/logos/cplusplus.svg" style={{rotate: "30deg", top: "70%", left: "30%"}}/>
+                        <Card image="assets/logos/html5.svg" style={{rotate: "15deg", top: "20%", left: "80%"}}/>
+                        <Card image="assets/logos/css3.svg" style={{rotate: "120deg", top: "15%", left: "60%"}}/>
+                        <Card image="assets/logos/csharp.svg" style={{rotate: "60deg", top: "5%", left: "10%"}}/>
+                        <Card image="assets/logos/mysql-official.svg" style={{rotate: "10deg", top: "80%", left: "10%"}}/>
+                        <Card image="assets/logos/react.svg" style={{rotate: "-10deg", top: "80%", left: "85%"}}/>
                     </div>
                 </div>
                 <div className="grid-black-color grid-3">
                     <div className='z-10 w-[50%]'>
                         <p className='headtext'>Time Zone</p>
-                        <p>I'm based in New Jersey, USA , and open to remote work worldwide</p>
+                        <p>I'm based in New Jersey, USA and open to remote work worldwide</p>
                         <img src="assets/earth.png" className="absolute left-[30%] top-[0%]" />
                     </div>
                 </div>
@@ -39,6 +44,9 @@ const About = () => {
                     <div className='flex flex-col items-center justify-center gap-4 size-full'>
                         <p className='headtext text-center'>
                             Do you want to start a project together?
+                        </p>
+                        <p className='headtext text-center'>
+                            pranitmenkar24@gmail.com
                         </p>
                         <EmailButton />
                     </div>

@@ -1,139 +1,139 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "TransformerGo",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "FBuilt a web-based machine learning system to predict manufacturing errors in instrument transformers, reducing error rates and improving efficiency.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a user-friendly interface using HTML, CSS, and JavaScript, enabling intuitive interaction with the system.",
+      "Used PHP and MySQL for server-side operations and efficient data handling.",
+      "Implemented predictive models using Python (Jupyter), incorporating feature engineering and exploratory data analysis (EDA).",
+      "Reduced manufacturing errors by 50%, significantly improving production quality and efficiency.",
     ],
-    href: "",
+    href: "https://github.com/Pranit2411/Projectfinal",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Transformergo.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Python",
+        path: "/assets/logos/python-logo-only.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Turtleback Zoo Management System",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Built a web-based management system for a zoo to streamline operations and improve efficiency across departments.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Designed a robust database schema to support key zoo functions",
+      "Developed frontend using HTML, CSS, and PHP",
+      "Implemented modules for animal shows, concessions, and admissions",
+      "Enabled report generation, activity tracking, and asset management",
     ],
-    href: "",
+    href: "https://github.com/Pranit2411/Turtleback-zoo-management-system",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/turtlebackzoo.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "CSS#",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "MySQL",
+        path: "/assets/logos/mysql-official.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "PHP",
+        path: "/assets/logos/php.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Connect X Reinforcement Learning Strategy Development",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Built an AI agent for Connect X using reinforcement learning techniques to make strategic gameplay decisions.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Implemented Q-learning and deep reinforcement learning (DRL) models.",
+      "Trained models using Python, TensorFlow, and PyTorch",
+      "Tuned hyperparameters to boost win-rate against baseline strategies",
+      "Explored MCTS and policy gradients for advanced move prediction",
+      
     ],
-    href: "",
+    href: "https://github.com/Pranit2411/ConnectX",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/connectx.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Python",
+        path: "/assets/logos/python-logo-only.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Tensorflow",
+        path: "/assets/logos/tensorflow-icon.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Pytorch",
+        path: "/assets/logos/pytorch-icon.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Kaggle",
+        path: "/assets/logos/kaggle-icon.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Uniprocessor Scheduling using Java",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Developed a simulator in Java to implement and compare six core uniprocessor scheduling algorithms: FCFS, Round Robin, SPN, SRT, HRRN, and Feedback.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Simulated process scheduling in a controlled environment.",
+      "Analyzed performance based on turnaround time, waiting time, and CPU utilization.",
+      "Explored trade-offs between fairness, efficiency, and response time.",
     ],
-    href: "",
+    href: "https://github.com/Pranit2411/uniprocessor-scheduling-java",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/javascheduling.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Java",
+        path: "/assets/logos/java-icon.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Visual Studio Code",
+        path: "/assets/logos/visualstudiocode.svg",
       },
       {
         id: 3,
@@ -142,83 +142,58 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Github",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
+  
+];
+
+export const experiences = [
   {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+    title: "Software Development Intern",
+    job: "Persistent Systems",
+    date: "Jan 2023- Jun 2023",
+    contents: [
+      "▸ Participated in structured training modules to acquire and strengthen technical competencies relevant to industry.",
+      "▸ Engaged in workshops and sessions focused on developing effective communication, teamwork, and problem-solving skills.",
+      "▸ Collaborated with cross-functional teams to design, develop, and deploy software solutions, enhancing practical understanding of software development lifecycle.",
+      "▸ Contributed to real-world projects, applying theoretical knowledge to practical scenarios, and gaining hands-on experience in software development.",
     ],
   },
   {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+    title: "Web Developer Intern",
+    job: "LetsGrowMore",
+    date: "Jul 2022 - Aug 2022",
+    contents: [
+      "▸ Implemented web development solutions for dynamic and user-friendly interfaces.", 
+      "▸ Engaged in front-end development using HTML, CSS, and JavaScript, ensuring an intuitive user experience.",
+      "▸ Collaborated on back-end functionalities, employing technologies like PHP for data processing and server-side operations.",
+      "▸ Utilized version control with Git for effective collaboration and code management.",
+      "▸ Demonstrated proficiency in web frameworks such as Bootstrap for responsive design.",
+      "▸ Participated in workshops and sessions to enhance communication, teamwork, and problem-solving skills.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+  },
+  {
+    title: "Data Science Intern",
+    job: "LetsGrowMore",
+    date: "Jul 2022 - Aug 2022",
+    contents: [
+      "▸ Implemented machine learning algorithms for predictive modeling and classification tasks.", 
+      "▸ Worked on feature engineering, model training, and evaluation, demonstrating a solid understanding of machine learning principles.",
+      "▸ Utilized libraries such as pandas, scikit-learn, and TensorFlow for data manipulation and machine learning tasks",
+    ],
+  },
+  {
+    title: "Martian's Program Intern",
+    job: "Persistent Systems",
+    date: "May 2022- Jun 2022",
+    contents: [
+      "▸ Completed a five-week program focused on strengthening core concepts in software development and problem-solving.",
+      "▸ Gained hands-on experience with Java and SQL through structured learning modules.",
+      "▸ Participated in weekly challenges and team-based tasks to enhance understanding of algorithms and programming fundamentals", 
+      "▸ Built a foundation for succeeding in the company’s later project-based internship phase",
     ],
   },
 ];
@@ -236,47 +211,4 @@ export const mySocials = [
     icon: "/assets/socials/github.svg",
     username : "Pranit2411",
   },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/pranitm_/",
-    icon: "/assets/socials/instagram.svg",
-    username : "pranitm_",
-  },
 ];
-
-export const experiences = [
-  {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
-
