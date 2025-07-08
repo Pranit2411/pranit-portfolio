@@ -1,6 +1,4 @@
 /* eslint-disable no-unused-vars */
-import { img } from "motion/react-client";
-
 const ProjectDetails = ({title, description, subDescription, image, tags, href}) => {
 
 
@@ -22,7 +20,7 @@ const ProjectDetails = ({title, description, subDescription, image, tags, href})
                             ))}
                         </div>
                         <a href={href} target="_blank" className="inline-flex items-center gap-1 font-medium hover-animation">View Project
-                            <img src="assets/arrow-up.svg" className="size-4" href={href}/>
+                            <img src="/assets/arrow-up.svg" className="size-4" href={href} alt="Arrow up"/>
                         </a>
                     </div>
                 </div>

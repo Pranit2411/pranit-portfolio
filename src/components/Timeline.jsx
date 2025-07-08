@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from "react";
-import { exp } from "three/tsl";
 
 export const Timeline = ({
   data
