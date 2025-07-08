@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="fixed inset-x-0 top-0 w-full backdrop-blur-lg bg-primary/40 z-20">
             <div className="mx-auto px-4 max-w-7xl">
                 <div className="flex items-center w-full py-2 sm:py-0">
-                    <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
+                    <a href="#home" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
                         Pranit
                     </a>
                     <button

@@ -32,13 +32,25 @@ const About = () => {
                         <Card image="assets/logos/react.svg" style={{rotate: "-10deg", top: "75%", left: "78%"}}/>
                     </div>
                 </div>
-                <div className="grid-black-color grid-3">
+                {/* <div className="grid-black-color grid-3">
                     <div className='z-10 w-[50%]'>
                         <p className='headtext'>Time Zone</p>
                         <p>I'm based in New Jersey, USA and open to remote work worldwide</p>
                         <img src="assets/earth.png" className="absolute left-[30%] top-[0%]" alt='Earth Image'/>
                     </div>
+                </div> */}
+                <div className="grid-black-color grid-3 relative">
+                    <img
+                        src="assets/earth.png"
+                        className="absolute left-[30%] top-[0%] z-0 pointer-events-none"
+                        alt="Earth Image"
+                    />
+                    <div className='z-10 w-[50%] relative'>
+                        <p className='headtext'>Time Zone</p>
+                        <p>I'm based in New Jersey, USA and open to remote work worldwide</p>
+                    </div>
                 </div>
+
                 <div className="grid-special-color grid-4">
                     <div className='flex flex-col items-center justify-center gap-4 size-full'>
                         <p className='headtext text-center'>
